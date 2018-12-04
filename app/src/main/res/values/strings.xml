@@ -1,11 +1,10 @@
 <resources>
     <string name="app_name">My Application</string>
-<<<<<<< HEAD
     <string name="button_shared">Shared Preferences</string>
     <string name="button_save">Save Data</string>
-    <string name="button_read">Read data</string>
-    <string name="button_remove_all">remove all</string>
-    <string name="button_remove_by_key">remove by key</string>
-=======
->>>>>>> develop
+    <string name="button_read">Read Data</string>
+    <string name="button_remove_all">Remove All</string>
+    <string name="button_remove_by_key">Remove By Key</string>
+    <string name="button_internal">Internal Storage</string>
+    <string name="button_external">External</string>
 </resources>
