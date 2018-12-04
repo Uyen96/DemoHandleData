@@ -1,7 +1,9 @@
-package com.example.uyen.myapplication;
+package com.example.uyen.myapplication.sqlite;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.uyen.myapplication.R;
 
 public class SqliteActivity extends AppCompatActivity {
 

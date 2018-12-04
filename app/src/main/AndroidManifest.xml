@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.uyen.myapplication">
-
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,9 +19,8 @@
         </activity>
         <activity android:name=".SharedPreferencesActivity" />
         <activity android:name=".InternalStorageActivity" />
-        <activity android:name=".MainActivity$MainActivity" />
         <activity android:name=".ExternalActivity" />
-        <activity android:name=".SqliteActivity"></activity>
+        <activity android:name=".sqlite.SqliteActivity"/>
     </application>
 
 </manifest>

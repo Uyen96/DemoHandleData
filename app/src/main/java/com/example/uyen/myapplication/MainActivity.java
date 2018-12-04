@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+import com.example.uyen.myapplication.sqlite.SqliteActivity;
+
 public class MainActivity extends AppCompatActivity implements OnClickListener{
 
     private Button mButtonShared;
