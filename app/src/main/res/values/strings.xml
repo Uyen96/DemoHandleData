@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Handle </string>
     <string name="button_shared">Shared Preferences</string>
     <string name="button_save">Save Data</string>
     <string name="button_read">Read Data</string>
