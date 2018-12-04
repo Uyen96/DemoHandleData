@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-      <activity android:name=".SharedPreferencesActivity"/>
+        <activity android:name=".SharedPreferencesActivity" />
+        <activity android:name=".InternalStorageActivity" />
+        <activity android:name=".MainActivity$MainActivity" />
+        <activity android:name=".ExternalActivity" />
+        <activity android:name=".SqliteActivity"></activity>
     </application>
-</manifest>
 
+</manifest>
